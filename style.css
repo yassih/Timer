@@ -1,0 +1,39 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.reveal * {
+	display: none;
+}
+.reveal *.handle {
+	display: block;
+}
+h1 {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: xx-large;
+    color: #3399FF;
+}
+#clock{
+	background-color: #dfffff;
+	border :2px solid black;
+	font-size: 30pt;
+}
+#outer {
+   background-image: url(images.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: auto;
+   height: auto;
+
+}
+#timer {
+	width: 800px;
+	height: 800px;
+	/*border-radius: 50%;
+	border: 10px solid black;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40pt; 
+}
