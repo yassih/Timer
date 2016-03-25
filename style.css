@@ -20,14 +20,17 @@ h1 {
 	font-size: 30pt;
 }
 #outer {
-   background-image: url(images.png);
-   background-size: contain;
-   background-repeat: no-repeat;
+   /*background-image: url(images.png);*/
+  /* background-size: contain;
+   background-repeat: no-repeat;*/
    width: auto;
    height: auto;
 
 }
 #timer {
+	background-image: url(images.png);
+	background-size: contain;
+    background-repeat: no-repeat;
 	width: 800px;
 	height: 800px;
 	/*border-radius: 50%;
